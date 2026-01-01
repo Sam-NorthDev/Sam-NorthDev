@@ -1,0 +1,42 @@
+# 🔍 Hidden File Detector (v1.0)
+**A professional Batch-based Intelligence Tool by SAM North Dev**
+
+![Batch](https://img.shields.io/badge/Language-Batch%20Script-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Author](https://img.shields.io/badge/Author-Sam--NorthDev-blue)
+
+---
+
+## 📖 Overview
+**Hidden File Detector** is a lightweight, fast, and reliable tool designed to scan any directory or drive to identify hidden files. Unlike standard Windows search, this tool provides a detailed intelligence report including individual file sizes, total counts, and estimated storage volume.
+
+## ✨ Key Features
+- **Deep Scan:** Recursively analyzes all subfolders.
+- **Size Calculation:** Shows exact sizes in KB and total volume in MB.
+- **Smart Reporting:** Automatically generates a clean, timestamped report on your Desktop.
+- **Safe & Non-Destructive:** Only reads file attributes; no files are moved or deleted.
+- **Professional UI:** Developed with a clean command-line interface.
+
+## 🚀 How to Run
+1. **Download** the `SamDetector.bat` file.
+2. **Right-click** and "Run as Administrator" (recommended for scanning system drives).
+3. **Paste the path** of the folder or drive you want to analyze (e.g., `C:\Users\Documents`).
+4. **View Results:** The script will automatically open a detailed report in Notepad once finished.
+
+## 📊 Sample Output
+```text
+================================================== 
+           HIDDEN FILE INVESTIGATION REPORT           
+================================================== 
+AUTHOR       : SAM North Dev
+TARGET PATH  : C:\Example\Path
+GENERATED ON : 2025-12-31
+-------------------------------------------------- 
+[1] C:\Example\Path\secret_file.jpg -- Size: 5420 KB
+[2] C:\Example\Path\data.db -- Size: 12050 KB
+-------------------------------------------------- 
+SUMMARY BY SAM'S TOOL: 
+Total Hidden Files Found: 2 
+Estimated Total Volume   : 17 MB 
+-------------------------------------------------- 
+       *** END OF REPORT - BY SAM North Dev ***
